@@ -11,4 +11,13 @@ Run only scripts that you trust. While scripts from the Internet can be useful, 
 [D] Do not run  [R] Run once  [S] Suspend  [?] Help (default is "D"):
 ```
 
-Use `Set-ExecutionPolicy Bypass` to ignore it.
+Run `Set-ExecutionPolicy Bypass`
+```
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic. Do you want to change the execution
+policy?
+[Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"):
+```
+and answer "Y".
+Then the security warning will be ignored.
