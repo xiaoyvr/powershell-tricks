@@ -1,6 +1,6 @@
 # Expand Array as Parameter
 
-Use the magic character, **@**.
+Use the magic character **'@'**.
 ```PowerShell
 Function Test($a, $b, $c){
     Write-Host $a
