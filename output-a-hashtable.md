@@ -1,6 +1,6 @@
 # Output a Hashtable
 
-```ps
+```text
 @{} ¦ format-table ¦ out-string ¦ write-host
 ```
 

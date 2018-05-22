@@ -1,7 +1,8 @@
 # Expand Array as Parameter
 
-Use the magic character **'@'**.
-```PowerShell
+Use the magic character **\`@\`**.
+
+```text
 Function Test($a, $b, $c){
     Write-Host $a
     Write-Host $b
@@ -10,18 +11,18 @@ Function Test($a, $b, $c){
 
 $arr = @(1,2,3)
 ```
+
 When you run `Test $arr`, you will get
-```PowerShell
+
+```text
 1 2 3
-
-
 ```
 
 When you run `Test @arr`, you will get
-```PowerShell
+
+```text
 1
 2
 3
 ```
-
 
